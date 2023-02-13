@@ -43,11 +43,35 @@ tunggu sampai log berhasil seperti di bawah ini :
 [nodemon] starting `node --inspect=9230 server.js`\
 Debugger listening on ws://127.0.0.1:9230/4535f67c-9131-4ae7-81e5-3544bf8873bd\
 For help, see: https://nodejs.org/en/docs/inspector \
-****************************\
-*    Starting Server\
-*    Port: 8080\
-*    NODE_ENV: development\
-*    Database: MongoDB\
-*    DB Connection: OK\
-****************************\
+****************************
+*    Starting Server
+*    Port: 8080
+*    NODE_ENV: development
+*    Database: MongoDB
+*    DB Connection: OK
+****************************
+
+## BACKEND
+Tech Stack :
+* reactjs
+* Bootstrap
+
+### Running Backend
+cd .. \
+cd backend \
+npm start
+
+
+
+## FRONTEND
+Tech Stack :
+* Next.js
+* reactjs
+* MUI
+* Redux
+
+### Running FRONTEND
+cd .. \
+cd frontend \
+npm run dev -- -p 3005
 
