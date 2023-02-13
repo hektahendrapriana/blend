@@ -172,10 +172,10 @@ function Products() {
                                                         <td>{item.product_info}</td>
                                                         <td className="project-actions text-left">
                                                             <NavDropdown title="Action" className='' id="basic-nav-dropdown">
-                                                                { checkMenu('editmodule') && 
-                                                                    <NavDropdown.Item href={ "editmodule/" + item._id }><AiFillEdit /> Edit</NavDropdown.Item>
+                                                                { checkMenu('editproduct') && 
+                                                                    <NavDropdown.Item href={ "editproduct/" + item._id }><AiFillEdit /> Edit</NavDropdown.Item>
                                                                 }
-                                                                { checkMenu('deletemodule') && 
+                                                                { checkMenu('deleteproduct') && 
                                                                     <NavDropdown.Item href="#" onClick={handleDelete} data-id={item._id}><AiFillDelete /> Delete</NavDropdown.Item>
                                                                 }
                                                             </NavDropdown>

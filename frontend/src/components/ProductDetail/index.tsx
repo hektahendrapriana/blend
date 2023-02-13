@@ -16,7 +16,7 @@ const CustomText = styled('div')(({ theme }) => ({
 }));
 
 interface ProductDetailProps {
-  id: number;
+  id: string;
   price: string;
   photo: string;
   title: string;
@@ -28,7 +28,7 @@ interface ProductDetailProps {
 }
 
 function ProductDetail(props: ProductDetailProps) {
-  const { photo, title, price, description, brand, info, type, sku } = props;
+  const { id, photo, title, price, description, brand, info, type, sku } = props;
   const [value, setValue] = React.useState("1");
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);

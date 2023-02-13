@@ -10,14 +10,14 @@ export const addToCart =
   async (dispatch, getState) => {
     try {
       const data = await loadProductDetails(id);
-
+      console.log(data)
       dispatch({
         type: constants.CART_ADD_ITEM,
         payload: {
-          id: data?.id,
-          title: data?.title,
-          photos: data?.photos[0],
-          price: data?.price,
+          id: data?._id,
+          title: data?.product_name,
+          photos: data?.product_image_url,
+          price: data?.product_price,
           quantity,
         },
       });

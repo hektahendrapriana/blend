@@ -12,28 +12,29 @@ const validateCreateProduct = [
     .isEmpty()
     .withMessage('IS_EMPTY')
     .trim(),
-    check('product_name')
-      .exists()
-      .withMessage('MISSING')
-      .not()
-      .isEmpty()
-      .withMessage('IS_EMPTY')
-      .trim(),
-    check('product_price')
-      .exists()
-      .withMessage('MISSING')
-      .not()
-      .isEmpty()
-      .withMessage('IS_EMPTY')
-      .trim(),
-    check('brand')
-      .exists()
-      .withMessage('MISSING')
-      .not()
-      .isEmpty()
-      .withMessage('IS_EMPTY')
-      .trim(),
+  check('product_name')
+    .exists()
+    .withMessage('MISSING')
+    .not()
+    .isEmpty()
+    .withMessage('IS_EMPTY')
+    .trim(),
+  check('product_price')
+    .exists()
+    .withMessage('MISSING')
+    .not()
+    .isEmpty()
+    .withMessage('IS_EMPTY')
+    .trim(),
+  check('brand')
+    .exists()
+    .withMessage('MISSING')
+    .not()
+    .isEmpty()
+    .withMessage('IS_EMPTY')
+    .trim(),
   check('product_image_url'),
+  check('real_pdp_url'),
   check('product_info'),
   check('product_type')
     .exists()

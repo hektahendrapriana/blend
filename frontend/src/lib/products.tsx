@@ -12,7 +12,7 @@ interface ProductDetailsProps {
 export async function loadProducts() {
   try {
     const { data }: ProductDataProps = await axios.get(
-      `${CONSTANTS.URL}/products?limit=500`
+      `${CONSTANTS.URL}/products?limit=3000`
     );
     return data;
   } catch (error) {

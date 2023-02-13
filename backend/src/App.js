@@ -119,7 +119,7 @@ function App() {
 
           <PrivateRoute path="/products" component={Products} />
           <PrivateRoute path="/addproduct" component={Addproduct} />
-          <PrivateRoute path="/editproduct" component={Editproduct} />
+          <PrivateRoute path="/editproduct/:id" component={Editproduct} />
 
 
           <PrivateRoute path="/changepassword" component={Changepassword} />

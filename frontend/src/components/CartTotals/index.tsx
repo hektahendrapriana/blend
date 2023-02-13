@@ -19,6 +19,16 @@ function CartTotals(props: CartTotalsProps) {
   const userLogin = useSelector((state: any) => state.userLogin);
   const { userInfo } = userLogin;
 
+  const numberFormat = (value:any) =>
+  new Intl.NumberFormat('id-ID', {
+  }).format(value);
+
+  const currencyFormat = (value:any) =>
+    new Intl.NumberFormat('id-ID', {
+    style: 'currency',
+    currency: 'IDR'
+  }).format(value);
+
   return (
     <Box>
       <Card sx={{ minWidth: "280px" }}>
@@ -39,7 +49,7 @@ function CartTotals(props: CartTotalsProps) {
                 color="text.secondary"
                 gutterBottom
               >
-                {props.subTotal.toFixed(2)}$
+                {currencyFormat(props.subTotal.toFixed(2))}
               </Typography>
             </Grid>
           </Grid>
@@ -59,7 +69,7 @@ function CartTotals(props: CartTotalsProps) {
                 color="text.secondary"
                 gutterBottom
               >
-                {props.deliveryCost.toFixed(2)}$
+                {currencyFormat(props.deliveryCost.toFixed(2))}
               </Typography>
             </Grid>
           </Grid>
@@ -70,7 +80,7 @@ function CartTotals(props: CartTotalsProps) {
             </Grid>
             <Grid item xs={6}>
               <Typography variant="h6">
-                {props.orderTotal.toFixed(2)}$
+                {currencyFormat(props.orderTotal.toFixed(2))}
               </Typography>
             </Grid>
           </Grid>

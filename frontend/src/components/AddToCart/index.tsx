@@ -28,7 +28,7 @@ interface CounterDisplayProps {
 }
 
 interface AddToCartProps {
-  id: any;
+  id: string;
 }
 
 const CounterDisplay: React.FunctionComponent<CounterDisplayProps> = ({
@@ -41,6 +41,7 @@ const AddToCart = (props: AddToCartProps) => {
   const [count, setCount] = React.useState<number>(1);
   const router = useRouter();
   const dispatch = useDispatch();
+
 
   const inc = () => {
     setCount(count + 1);
@@ -57,7 +58,9 @@ const AddToCart = (props: AddToCartProps) => {
   };
 
   const addToCartHandler = () => {
-    router.push(`/cart?id=${props.id}?qty=${count}`);
+    console.log(`${props.id}`)
+    console.log(count)
+    router.push(`/cart?id=${props.id}&qty=${count}`);
   };
 
   return (

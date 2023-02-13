@@ -24,17 +24,33 @@ import moment from 'moment'
 function Addproduct() {
     const history = useHistory();
     const [error, setError] = useState(null);
+    const [brands, setBrands] = useState([]);
     const [validated, setValidated] = useState(false);
     const [formData, setFormData] = useState({
-        name: '',
-        path: '',
-        method: '',
-        parent: 0,
-        source: ''
+        sku: '',
+        product_name: '',
+        product_price: '',
+        brand: '',
+        product_image_url: '',
+        product_info: '',
+        real_pdp_url: '',
+        product_type: ''
     });
 
     useEffect(() => {
+        getBrands()
     }, []);
+
+    function getBrands() {
+        Api().get('products/brands')
+        .then((response) => response)
+        .then((data) => {
+            console.log(data.data)
+            setBrands(data.data);
+        })
+        .catch((err) => {
+       });
+    }
 
     function handleChange(e) {
         const key = e.target.name;
@@ -53,12 +69,12 @@ function Addproduct() {
         var data = new FormData(form);
         let formObject = Object.fromEntries(data.entries());
         console.log(formObject);
-        await Api().post('pages', formObject)
+        await Api().post('products', formObject)
         .then((response) => response)
         .then((data) => {
             setValidated(false);
             if( data.status === 201 ){
-                history.push('/modules');
+                history.push('/products');
             }
         })
         .catch((err) => {
@@ -75,11 +91,11 @@ function Addproduct() {
                         <Container fluid>
                             <Row className="">
                                 <Col sm={4}>
-                                <h1 className="m-0">Add Module</h1>
+                                <h1 className="m-0">Add Product</h1>
                                 </Col>
                                 <Col sm={2}>
                                     { checkMenu('modules') &&
-                                        <Link to="/modules"><Button variant="outline-primary" className="btn-upload"><AiOutlineRollback /> Back</Button></Link>
+                                        <Link to="/products"><Button variant="outline-primary" className="btn-upload"><AiOutlineRollback /> Back</Button></Link>
                                     }
                                 </Col>
                                 <Col sm={3}>
@@ -99,67 +115,119 @@ function Addproduct() {
                                 <Col lg={12}>
                                     <Card className="content-list">
                                         <Card.Body>
-                                            <Col md="6">
+                                            <Col md="8">
                                                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
                                                     <Row className="mb-3">
-                                                        <Form.Group as={Col} md="12" controlId="validationCustom01">
-                                                            <Form.Label>Module Name</Form.Label>
+                                                        <Form.Group as={Col} md="6" controlId="validationCustom01">
+                                                            <Form.Label>Product SKU</Form.Label>
                                                             <Form.Control
                                                                 required
                                                                 type="text"
-                                                                placeholder="Module Name"
-                                                                name="name"
+                                                                placeholder="Product SKU"
+                                                                name="sku"
                                                                 onChange={handleChange}
                                                             />
                                                         </Form.Group>
                                                     </Row>
                                                     <Row className="mb-3">
-                                                        <Form.Group as={Col} md="12" controlId="validationCustom02">
-                                                            <Form.Label>Path URL</Form.Label>
+                                                        <Form.Group as={Col} md="12" controlId="validationCustom01">
+                                                            <Form.Label>Product Name</Form.Label>
                                                             <Form.Control
                                                                 required
                                                                 type="text"
-                                                                placeholder="example : users"
-                                                                name="path"
+                                                                placeholder="Product Name"
+                                                                name="product_name"
                                                                 onChange={handleChange}
                                                             />
+                                                        </Form.Group>
+                                                    </Row>
+                                                    <Row className="mb-3">
+                                                        <Form.Group as={Col} md="6" controlId="validationCustom02">
+                                                            <Form.Label>Product Image URL</Form.Label>
+                                                            <Form.Control
+                                                                required
+                                                                type="text"
+                                                                placeholder="Image URL"
+                                                                name="product_image_url"
+                                                                onChange={handleChange}
+                                                            />
+                                                        </Form.Group>
+                                                    </Row>
+                                                    <Row className="mb-3">
+                                                        <Form.Group as={Col} md="6" controlId="validationCustom02">
+                                                            <Form.Label>Product URL</Form.Label>
+                                                            <Form.Control
+                                                                required
+                                                                type="text"
+                                                                placeholder="Product URL"
+                                                                name="real_pdp_url"
+                                                                onChange={handleChange}
+                                                            />
+                                                        </Form.Group>
+                                                    </Row>
+                                                    <Row className="mb-3">
+                                                        <Form.Group as={Col} md="6" controlId="validationCustom02">
+                                                            <Form.Label>Product Price</Form.Label>
+                                                            <Form.Control
+                                                                required
+                                                                type="text"
+                                                                placeholder="Price"
+                                                                name="product_price"
+                                                                onChange={handleChange}
+                                                            />
+                                                        </Form.Group>
+                                                    </Row>
+                                                    <Row className="mb-3">
+                                                        <Form.Group as={Col} md="4" controlId="validationCustom08">
+                                                            <Form.Label>Brand</Form.Label>
+                                                            <Form.Control
+                                                                required
+                                                                as="select"
+                                                                name="brand"
+                                                                onChange={handleChange}
+                                                            >
+                                                                <option value="">Select Brand</option>
+                                                                {
+                                                                    brands.map((item, i) => (
+                                                                        <option key={i} value={item.value}>{item.label}</option>
+                                                                    ))
+                                                                }
+                                                            </Form.Control>
                                                         </Form.Group>
                                                     </Row>
                                                     <Row className="mb-3">
                                                         <Form.Group as={Col} md="12" controlId="validationCustom03">
-                                                            <Form.Label>Method Type</Form.Label>
+                                                            <Form.Label>Product Type</Form.Label>
                                                             <Form.Control
                                                                 required
                                                                 as="select"
-                                                                name="method"
+                                                                name="product_type"
                                                                 onChange={handleChange}
                                                             >
-                                                                <option value="">Select Method</option>
-                                                                <option value="GET">GET</option>
-                                                                <option value="POST">POST</option>
-                                                                <option value="PATCH">PATCH</option>
-                                                                <option value="DELETE">DELETE</option>
+                                                                <option value="">Select Type</option>
+                                                                <option value="IPHONE">IPHONE</option>
+                                                                <option value="IPAD">IPAD</option>
+                                                                <option value="MAC">MAC</option>
+                                                                <option value="WATCH">WATCH</option>
+                                                                <option value="TV">TV</option>
+                                                                <option value="ACCESORIES">ACCESORIES</option>
                                                             </Form.Control>
                                                         </Form.Group>
-                                                        
                                                     </Row>
                                                     <Row className="mb-3">
                                                         <Form.Group as={Col} md="12" controlId="validationCustom04">
-                                                            <Form.Label>Source</Form.Label>
+                                                            <Form.Label>Product Info</Form.Label>
                                                             <Form.Control
                                                                 required
                                                                 as="select"
-                                                                // value={type}
-                                                                name="source"
+                                                                name="product_info"
                                                                 onChange={handleChange}
                                                             >
-                                                                <option value="">Select Source</option>
-                                                                <option value="API">API</option>
-                                                                <option value="ADMIN">ADMIN</option>
-                                                                <option value="WEBSITE">WEBSITE</option>
+                                                                <option value="">Select</option>
+                                                                <option value="Click & Pickup">Click & Pickup</option>
+                                                                <option value="Stok Habis">Stok Habis</option>
                                                             </Form.Control>
                                                         </Form.Group>
-                                                        
                                                     </Row>
                                                     {error && 
                                                         <Alert variant="danger">

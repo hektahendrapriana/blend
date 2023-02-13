@@ -17,7 +17,7 @@ const getBrands = async (req, res) => {
     const resp = []
     for(let i=0; i<brands.length; i++)
     {
-      resp.push({id: i+1, label: brands[i], value: brands[i], category: brands[i]})
+      resp.push({id: i+1, label: brands[i], value: brands[i], brand: brands[i]})
     }
     res.status(200).json(resp)
   } catch (error) {

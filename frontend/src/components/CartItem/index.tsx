@@ -42,6 +42,16 @@ function CartItem(props: ProductItemProps) {
   function showDetailsHandler() {
     router.push("/products/" + id);
   }
+
+  const numberFormat = (value:any) =>
+  new Intl.NumberFormat('id-ID', {
+  }).format(value);
+
+  const currencyFormat = (value:any) =>
+    new Intl.NumberFormat('id-ID', {
+    style: 'currency',
+    currency: 'IDR'
+  }).format(value);
  
   return (
     <>
@@ -59,7 +69,7 @@ function CartItem(props: ProductItemProps) {
         align="left"
         sx={{ display: { xs: "none", md: "table-cell" } }}
       >
-        {props.price}
+        {currencyFormat(props.price)}
       </TableCell>
       <TableCell>
         <FormControl sx={{ minWidth: 40 }}>
@@ -87,7 +97,7 @@ function CartItem(props: ProductItemProps) {
           align="left"
           sx={{ display: { xs: "none", md: "table-cell" } }}
         >
-          {props.subtotal}
+          {currencyFormat(props.subtotal)}
         </Typography>
       </TableCell>
       <TableCell align="left">

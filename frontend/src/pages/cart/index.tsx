@@ -27,12 +27,13 @@ function CartPage() {
   const router = useRouter();
 
   const productId = router.query.id;
-
   const cart = useSelector((state: any) => state.cart);
   const { cartItems } = cart;
 
+  console.log(productId)
+  console.log(cart)
   let totalPrice = 0;
-  let deliveryCost = 12.99;
+  let deliveryCost = 0;
 
   cartItems?.forEach((item: any) => {
     totalPrice += item.price * item.quantity;
@@ -107,7 +108,7 @@ function CartPage() {
                       <CartItem
                         key={item.id}
                         id={item.id}
-                        photos={item.photos?.url}
+                        photos={item.photos}
                         title={item.title}
                         description={item.description}
                         price={item.price}
