@@ -85,9 +85,14 @@ Tech Stack :
 * Bootstrap
 
 login with credentials :
+
+Email : 
 ```
-email : hektahendrapriana@gmail.com
-password : 123456
+hektahendrapriana@gmail.com
+```
+Password :
+```
+123456
 ```
 
 ### Running Backend
