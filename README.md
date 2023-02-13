@@ -42,7 +42,7 @@ tunggu sampai log berhasil seperti di bawah ini :
 
 [nodemon] starting `node --inspect=9230 server.js`\
 Debugger listening on ws://127.0.0.1:9230/4535f67c-9131-4ae7-81e5-3544bf8873bd\
-For help, see: https://nodejs.org/en/docs/inspector\
+For help, see: https://nodejs.org/en/docs/inspector \
 ****************************\
 *    Starting Server\
 *    Port: 8080\
