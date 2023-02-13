@@ -84,8 +84,8 @@ Tech Stack :
 * reactjs
 * Bootstrap
 
-```
 login with credentials :
+```
 email : hektahendrapriana@gmail.com
 password : 123456
 ```
