@@ -11,13 +11,16 @@ Tech Stack :
 
 
 ### Instal Database
+```
 cd api\
 nano .env
+```
 
 **copy to .env**
-
-*   NODE_ENV="development"
-*   PORT=8080
+```
+NODE_ENV="development"
+PORT=8080
+```
 *   JWT_SECRET="7D6425FAC26477182B78C8F2F39CE"
 *   JWT_EXPIRATION_IN_MINUTES=1440
 *   MONGO_URI="mongodb://localhost:27017/blend"
@@ -34,14 +37,18 @@ nano .env
 *   MJ_API_SECRET="fdd85cd7b7edb1afb50eebfbc563169a"
 
 setelah itu, jalankan perintah ini :
-
+```
 npm run seed
+```
 
 ketika sudah berhasil, jalankan perintah :\
+```
 npm run dev
+```
 
 tunggu sampai log berhasil seperti di bawah ini :
 
+```
 [nodemon] starting `node --inspect=9230 server.js`\
 Debugger listening on ws://127.0.0.1:9230/4535f67c-9131-4ae7-81e5-3544bf8873bd\
 For help, see: https://nodejs.org/en/docs/inspector \
@@ -52,6 +59,7 @@ For help, see: https://nodejs.org/en/docs/inspector \
 *    Database: MongoDB
 *    DB Connection: OK
 ****************************
+```
 
 testing API dengan postman, Collection Postman ada di folder CollectionPostman. Import Collection tersebut\
 jangan lupa membuat Environments di POSTMAN dengan variable dan value seperti di bawah ini 
@@ -81,11 +89,11 @@ email : hektahendrapriana@gmail.com \
 password : 123456
 
 ### Running Backend
+```
 cd .. \
 cd backend \
 npm start
-
-
+```
 
 ## FRONTEND
 Tech Stack :
@@ -95,7 +103,9 @@ Tech Stack :
 * Redux
 
 ### Running FRONTEND
+```
 cd .. \
 cd frontend \
 npm run dev -- -p 3005
+```
 
