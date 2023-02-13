@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "634fc1df3ad23ce05a16e83e"
+  },
+  "first_name": "Hekta",
+  "middle_name": "Hendra",
+  "last_name": "Priana",
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "mobile_phone": "+6287819337560",
+  "phone_number": "",
+  "address": "",
+  "place_of_birth": "Medan",
+  "date_of_birth": "1983-03-31",
+  "gender": "Male",
+  "avatar": "",
+  "password": "$2a$10$KmR/HguIP9Ts3O.Y7F2LOOFyPXNN6xpl/2eWuIV4wUAwoCcxkMb.W",
+  "role_id": "6357b52bd9ff5ca93acb1d49",
+  "verified": true,
+  "verification": "3d6e072c-0eaf-4239-bb5e-495e6486148f",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1658463993148"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676107395410"
+    }
+  },
+  "blockExpires": {
+    "$date": {
+      "$numberLong": "1676107395262"
+    }
+  },
+  "loginAttempts": 0
+},{
+  "_id": {
+    "$oid": "63e761fb59565c2b78855f92"
+  },
+  "verified": false,
+  "gender": "Male",
+  "loginAttempts": 0,
+  "user_name": "hektahendraprian",
+  "first_name": "Hektas2",
+  "middle_name": "Hendra2",
+  "last_name": "Priana2",
+  "mobile_phone": "+6287819337569",
+  "email": "hektahendraprianas+500@gmail.com",
+  "password": "$2b$05$lf0UogGRT8DWXwOiraOwI.fvu43C1hQkd1/7EgPyLGBR6zey5zE0y",
+  "role_id": "6357b55ad9ff5ca93acb1d4e",
+  "phone_number": "+61216666663",
+  "avatar": "",
+  "date_of_birth": "1993-03-31",
+  "place_of_birth": "Medan",
+  "createdBy": "634fc1df3ad23ce05a16e83e",
+  "verification": "e9077ab3-8e22-49f2-b269-9876777f339c",
+  "blockExpires": {
+    "$date": {
+      "$numberLong": "1676108283059"
+    }
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676108283101"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676108478158"
+    }
+  },
+  "address": "",
+  "modifiedBy": "634fc1df3ad23ce05a16e83e"
+}]

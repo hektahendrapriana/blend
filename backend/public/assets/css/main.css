@@ -1,0 +1,85 @@
+.sidebar-dark-primary {
+    background-color: transparent !important;
+}
+
+.logo-login {
+    width: 168px;
+    margin-right: 10px;
+}
+
+.title-login {
+    font-size: 24px;
+}
+
+.nav-item > span {
+    cursor: pointer;
+}
+
+.link-action {
+    margin-right: 5px;
+}
+
+
+.login-page {
+    background-color: transparent;
+}
+.content-list {
+    width: 100%;
+}
+.user-list {
+    width: 100%;
+    font-size: 14px;
+}
+.col-id {
+    width: 10%;
+}
+
+.col-name {
+    width: 25%;
+}
+
+.col-role {
+    width: 5%;
+}
+
+.col-username {
+    width: 15%;
+}
+.col-email {
+    width: 15%;
+}
+.col-mobilephone {
+    width: 10%;
+}
+.col-status {
+    width: 10%;
+}
+
+.col-action {
+    width: 10%;
+}
+
+.link-action {
+    margin-right: 20px;
+}
+
+.dropzone {
+    text-align: center;
+    padding: 30px;
+    border: 1px dashed rgba(0,0,0,.3) !important;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.selected-file-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.selected-file {
+    color: #000; 
+    font-weight: bold;
+}

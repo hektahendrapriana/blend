@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "63e7643dbbbf5611949cabf8"
+  },
+  "method": "GET",
+  "source": "API",
+  "name": "List User",
+  "path": "users",
+  "parent": "0",
+  "createdBy": "634fc1df3ad23ce05a16e83e",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676108861799"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676108861799"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e764aabbbf5611949cac2c"
+  },
+  "method": "PATCH",
+  "source": "API",
+  "name": "PATCH User",
+  "path": "users",
+  "parent": "0",
+  "createdBy": "634fc1df3ad23ce05a16e83e",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676108970436"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676108970436"
+    }
+  }
+}]

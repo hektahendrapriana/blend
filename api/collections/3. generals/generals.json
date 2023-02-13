@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6374f41520cab72638c4c1d1"
+  },
+  "name": "Blend Media ERP",
+  "alamat": "",
+  "phone_number": "",
+  "mobile_phone": "",
+  "email": "info@blendmedia.com",
+  "latitude": "-6.1934872",
+  "longitude": "106.8501721",
+  "radius": "1000"
+}]
