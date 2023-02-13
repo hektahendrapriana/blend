@@ -51,10 +51,32 @@ For help, see: https://nodejs.org/en/docs/inspector \
 *    DB Connection: OK
 ****************************
 
+testing API dengan postman, Collection Postman ada di folder CollectionPostman. Import Collection tersebut\
+jangan lupa membuat Environments di POSTMAN dengan variable dan value seperti di bawah ini 
+
+1. \
+VARIABLE : address\
+TYPE : default \
+INITIAL VALUE : {{address}} \
+CURRENT VALUE : http://localhost:8080/blend/api
+
+setelah itu, cari di dalam Collection -> Blend Media -> AUTH -> Login \
+kemudian copy RESPONSE token ke ENVIRONMENTS di bawah ini 
+
+2. \
+VARIABLE : token\
+TYPE : default \
+INITIAL VALUE : {{token}} \
+CURRENT VALUE : (isi dengan RESPONSE token ketika sudah login )
+
 ## BACKEND
 Tech Stack :
 * reactjs
 * Bootstrap
+
+login with credentials : \
+email : hektahendrapriana@gmail.com \
+password : 123456
 
 ### Running Backend
 cd .. \
