@@ -12,7 +12,7 @@ Tech Stack :
 
 ### Instal Database
 ```
-cd api\
+cd api
 nano .env
 ```
 
@@ -90,8 +90,8 @@ password : 123456
 
 ### Running Backend
 ```
-cd .. \
-cd backend \
+cd ..
+cd backend
 npm start
 ```
 
@@ -104,8 +104,8 @@ Tech Stack :
 
 ### Running FRONTEND
 ```
-cd .. \
-cd frontend \
+cd ..
+cd frontend
 npm run dev -- -p 3005
 ```
 
