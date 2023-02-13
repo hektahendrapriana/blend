@@ -41,7 +41,7 @@ setelah itu, jalankan perintah ini :
 npm run seed
 ```
 
-ketika sudah berhasil, jalankan perintah :\
+ketika sudah berhasil, jalankan perintah :
 ```
 npm run dev
 ```
