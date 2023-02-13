@@ -1,4 +1,4 @@
-# blend
+# BlendMedia
 git clone https://github.com/hektahendrapriana/blendmedia blend
 
 ## API
