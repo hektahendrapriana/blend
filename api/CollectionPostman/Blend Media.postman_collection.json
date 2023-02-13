@@ -1,0 +1,3218 @@
+{
+	"info": {
+		"_postman_id": "968bbd56-f58d-4542-9de3-08dc6e8cfe6b",
+		"name": "Blend Media",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23781490"
+	},
+	"item": [
+		{
+			"name": "AUTH",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"hektahendrapriana@gmail.com\",\n    \"password\": \"123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/login",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"first_name\": \"Hektas\",\n    \"middle_name\": \"Hendradd\",\n    \"last_name\": \"Priana\",\n    \"email\": \"hektahendrapriana+43400@gmail.com\",\n    \"user_name\": \"hektahendrapriana343\",\n    \"nik\": \"353454353\",\n    \"mobile_phone\": \"+628781933753461\",\n    \"phone_number\": \"+6121666242666\",\n    \"gender\": \"Male\",\n    \"avatar\": \"\",\n    \"additional_contacts\": [],\n    \"hospitals\": [],\n    \"services\": [],\n    \"date_of_birth\": \"1983-03-31\",\n    \"role_id\": \"63471fea6d1690a432ca33a1\",\n    \"password\": \"ardath01\",\n    \"confirm_password\": \"ardath01\",\n    \"pin\": \"8989\",\n    \"confirm_pin\": \"8989\",\n    \"id_register_pasien\": \"sfsf\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/register",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"10fe4bed-2d70-4580-be91-650ceae47c4f\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/verify",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"verify"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/verify/10fe4bed-2d70-4580-be91-650ceae47c4f",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"verify",
+								"10fe4bed-2d70-4580-be91-650ceae47c4f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Forgot Password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"hektahendrapriana@gmail.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/forgot",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"forgot"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"e4429dab-d43b-43de-974f-244cf537d9c5\",\n    \"password\": \"ardath01\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/reset",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"reset"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Token",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/token",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify OTP",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"10fe4bed-2d70-4580-be91-650ceae47c4f\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/verifyotp",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"verifyotp"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ROLE",
+			"item": [
+				{
+					"name": "Roles",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/roles?limit=10",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"roles"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Role By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/roles/6357b55ad9ff5ca93acb1d4e",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"roles",
+								"6357b55ad9ff5ca93acb1d4e"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "All Roles",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/roles/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"roles",
+								"all"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Role",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"User\",\n    \"role\": \"user\",\n    \"descriptions\": \"Role User\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/roles",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"roles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Admin\",\n    \"role\": \"admin\",\n    \"descriptions\": \"Role Admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/roles/63e7605e86642e29f4a7a8a3",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"roles",
+								"63e7605e86642e29f4a7a8a3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/roles/6357b308db89c6a7daa1d19b",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"roles",
+								"6357b308db89c6a7daa1d19b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "USERS",
+			"item": [
+				{
+					"name": "Users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/users?filter=he&page=1&limit=5&sort=first_name&order=-1",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "he"
+								},
+								{
+									"key": "fields",
+									"value": "first_name, middle_name, last_name, email, user_name",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								},
+								{
+									"key": "sort",
+									"value": "first_name"
+								},
+								{
+									"key": "order",
+									"value": "-1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User/:id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/users/634fc1df3ad23ce05a16e83e",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"users",
+								"634fc1df3ad23ce05a16e83e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"first_name\": \"Hektas2\",\n    \"middle_name\": \"Hendra2\",\n    \"last_name\": \"Priana2\",\n    \"email\": \"hektahendraprianas+500@gmail.com\",\n    \"user_name\": \"hektahendraprian\",\n    \"address\": \"\",\n    \"mobile_phone\": \"+6287819337569\",\n    \"phone_number\": \"+61216666663\",\n    \"gender\": \"Male\",\n    \"avatar\": \"\",\n    \"place_of_birth\": \"Medan\",\n    \"date_of_birth\": \"1993-03-31\",\n    \"role_id\": \"6357b55ad9ff5ca93acb1d4e\",\n    \"password\": \"ardath01\",\n    \"confirm_password\": \"ardath01\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/users",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User/:id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/users/63e761fb59565c2b78855f92",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"users",
+								"63e761fb59565c2b78855f92"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User/:id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"first_name\": \"Hektas2\",\n    \"middle_name\": \"Hendra2\",\n    \"last_name\": \"Priana2\",\n    \"email\": \"hektahendraprianas+500@gmail.com\",\n    \"user_name\": \"hektahendraprian\",\n    \"address\": \"\",\n    \"mobile_phone\": \"+6287819337569\",\n    \"phone_number\": \"+61216666663\",\n    \"gender\": \"Male\",\n    \"avatar\": \"\",\n    \"place_of_birth\": \"Medan\",\n    \"date_of_birth\": \"1993-03-31\",\n    \"role_id\": \"6357b55ad9ff5ca93acb1d4e\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/users/63e761fb59565c2b78855f92",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"users",
+								"63e761fb59565c2b78855f92"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/profile",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"first_name\": \"Hektas\",\n    \"middle_name\": \"Hendra\",\n    \"last_name\": \"Priana\",\n    \"email\": \"hektahendraprianas@gmail.com\",\n    \"user_name\": \"hektahendraprianas\",\n    \"address\": \"\",\n    \"mobile_phone\": \"+6287819337561\",\n    \"phone_number\": \"++6121666666\",\n    \"gender\": \"Male\",\n    \"avatar\": \"\",\n    \"date_of_birth\": \"1983-03-31\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/profile",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profile Change Password",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"oldPassword\": \"ardath02\",\n    \"newPassword\": \"ardath01\",\n    \"confirmNewPassword\": \"ardath01\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/profile/changepassword",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"profile",
+								"changepassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change Password User by ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"newPassword\": \"ardath01\",\n    \"confirmNewPassword\": \"ardath01\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/changepassword/63e761fb59565c2b78855f92",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"changepassword",
+								"63e761fb59565c2b78855f92"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PAGES",
+			"item": [
+				{
+					"name": "Pages",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/pages",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"pages"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Page By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/pages/63e7643dbbbf5611949cabf8",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"pages",
+								"63e7643dbbbf5611949cabf8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Page",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"List User\",\n    \"path\": \"users\",\n    \"parent\": 0,\n    \"method\": \"GET\",\n    \"source\": \"API\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/pages",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"pages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Page",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Update Role\",\n    \"path\": \"roles\",\n    \"parent\": 0,\n    \"method\": \"PATCH\",\n    \"source\": \"API\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/pages/63e764aabbbf5611949cac2c",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"pages",
+								"63e764aabbbf5611949cac2c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Page",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/pages/63e7645cbbbf5611949cac0f",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"pages",
+								"63e7645cbbbf5611949cac0f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Page",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/pages/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"pages",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PERMISSIONS",
+			"item": [
+				{
+					"name": "Permissions",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/permissions?limit=100",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"permissions"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "100"
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Permission By ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/permissions/635d4ee1a19f9044d135a552",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"permissions",
+								"635d4ee1a19f9044d135a552"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Permissions By Role",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/permissions?filter=6357b55ad9ff5ca93acb1d4e&fields=role_id",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"permissions"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "6357b55ad9ff5ca93acb1d4e"
+								},
+								{
+									"key": "fields",
+									"value": "role_id"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "100",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Permissions",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/permissions/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"permissions",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Permissions",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"role_id\": \"6357b55ad9ff5ca93acb1d4e\",\n    \"page_id\": \"63e764aabbbf5611949cac2c\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/permissions",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"permissions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Permission",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"role_id\": \"6357b55ad9ff5ca93acb1d4e\",\n    \"page_id\": \"63e7643dbbbf5611949cabf8\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/permissions/63e765b2bbbf5611949cac55",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"permissions",
+								"63e765b2bbbf5611949cac55"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Permission",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/permissions/63e765fcbbbf5611949cac6c",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"permissions",
+								"63e765fcbbbf5611949cac6c"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ZIP CODES",
+			"item": [
+				{
+					"name": "Zip Codes",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/zipcodes?filter=10440&fields=kodepos&limit=10",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"zipcodes"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "10440"
+								},
+								{
+									"key": "fields",
+									"value": "kodepos"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Zip Code By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/zipcodes/636437be88ae8dc548ddd95e",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"zipcodes",
+								"636437be88ae8dc548ddd95e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Zip Code",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"provinsi\": \"test\",\n    \"kabupaten\": \"test\",\n    \"kecamatan\": \"test\",\n    \"kelurahan\": \"test\",\n    \"kodepos\": \"111111111\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/zipcodes",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"zipcodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Zip Code",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"provinsi\": \"test\",\n    \"kabupaten\": \"test\",\n    \"kecamatan\": \"test\",\n    \"kelurahan\": \"test\",\n    \"kodepos\": \"111111111\",\n    \"negara\": \"Indonesia\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/zipcodes/63e7686bbbbf5611949caca0",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"zipcodes",
+								"63e7686bbbbf5611949caca0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Zip Code",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/zipcodes/63e7686bbbbf5611949caca0",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"zipcodes",
+								"63e7686bbbbf5611949caca0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Zip Code",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/zipcodes/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"zipcodes",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "COUNTRIES",
+			"item": [
+				{
+					"name": "Countries",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/countries",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"countries"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Country By ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/countries/6364fd2c88ae8dc548df07a1",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"countries",
+								"6364fd2c88ae8dc548df07a1"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Country",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"test\",\n    \"code\": \"test\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/countries",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Country",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"test2\",\n    \"code\": \"test2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/countries/63e768e6bbbf5611949cacc2",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"countries",
+								"63e768e6bbbf5611949cacc2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Country",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/countries/63e768e6bbbf5611949cacc2",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"countries",
+								"63e768e6bbbf5611949cacc2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Country",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/countries/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"countries",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ACTIVITIES",
+			"item": [
+				{
+					"name": "Activities",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/activitys",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"activitys"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "6372578620cab72638c492ef",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "icd10",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Activity By ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api-v2/activitys/63746a8820cab72638c4c1be",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-v2",
+								"activitys",
+								"63746a8820cab72638c4c1be"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Activity",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"code\": \"test\",\n    \"name\": \"test\",\n    \"tags\": \"\",\n    \"access_url\": \"\",\n    \"source\": \"API\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/activitys",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"activitys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Activity",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/activitys/63e769e0bbbf5611949cacf0",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"activitys",
+								"63e769e0bbbf5611949cacf0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Activity",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/activitys/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"activitys",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SETTINGS",
+			"item": [
+				{
+					"name": "General Setting",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/generals",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"generals"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "6372578620cab72638c492ef",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "icd10",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "role",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "-1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PRODUCTS",
+			"item": [
+				{
+					"name": "Products",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/products?limit=5000&product_type=ACCESORIES",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "_id",
+									"disabled": true
+								},
+								{
+									"key": "filter",
+									"value": "iPad",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "5000"
+								},
+								{
+									"key": "product_type",
+									"value": "ACCESORIES"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/products/63e727051ef205cc6d2c4177",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products",
+								"63e727051ef205cc6d2c4177"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product By SKU",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/products/details/8100010757",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products",
+								"details",
+								"8100010757"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"sku\": \"8100001132\",\n    \"product_name\": \"Apple iPhone Xs 64GB, Silver\",\n    \"product_price\": \"11999000\",\n    \"brand\": \"Apple\",\n    \"product_image_url\": \"https://cdn.eraspace.com/pub/media/catalog/product/i/p/iphone-xs-silver_1_2.jpg\",\n    \"product_info\": \"Stok Habis\",\n    \"real_pdp_url\": \"https://ibox.co.id/product/apple-iphone-xs-64gb-silver-new\",\n    \"product_type\": \"IPHONE\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/products",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"sku\": \"8100001132\",\n    \"product_name\": \"Apple iPhone Xs 64GB, Silver\",\n    \"product_price\": \"11999000\",\n    \"brand\": \"Apple\",\n    \"product_image_url\": \"https://cdn.eraspace.com/pub/media/catalog/product/i/p/iphone-xs-silver_1_2.jpg\",\n    \"product_info\": \"Stok Habis\",\n    \"real_pdp_url\": \"https://ibox.co.id/product/apple-iphone-xs-64gb-silver-new\",\n    \"product_type\": \"IPHONE\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/products/63d602f13ba5a70e3122fa57",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products",
+								"63d602f13ba5a70e3122fa57"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/products/6364ce6c164b0ad600aaa9b8",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products",
+								"6364ce6c164b0ad600aaa9b8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Products",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/products/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Products Update Many",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/products/updatemany?limit=5000&fields=product_name&filter=Kajsa",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products",
+								"updatemany"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "5000"
+								},
+								{
+									"key": "sort",
+									"value": "_id",
+									"disabled": true
+								},
+								{
+									"key": "fields",
+									"value": "product_name"
+								},
+								{
+									"key": "filter",
+									"value": "Kajsa"
+								},
+								{
+									"key": "order",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "Active",
+									"disabled": true
+								},
+								{
+									"key": "doctor_id",
+									"value": "6397faad596e47f7fc571bbb",
+									"disabled": true
+								},
+								{
+									"key": "brand",
+									"value": "null",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Brands",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/products/brands",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products",
+								"brands"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "_id",
+									"disabled": true
+								},
+								{
+									"key": "filter",
+									"value": "iPad",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categorys",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/products/types",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"products",
+								"types"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "_id",
+									"disabled": true
+								},
+								{
+									"key": "filter",
+									"value": "iPad",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ORDERS Copy",
+			"item": [
+				{
+					"name": "Orders",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/orders?limit=400&sort=_id&order=1&status=Active",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "400"
+								},
+								{
+									"key": "sort",
+									"value": "_id"
+								},
+								{
+									"key": "fields",
+									"value": "filename",
+									"disabled": true
+								},
+								{
+									"key": "filter",
+									"value": "JOYCE HUTAPEA2",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "1"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "Active"
+								},
+								{
+									"key": "doctor_id",
+									"value": "6397faad596e47f7fc571bbb",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Order By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/orders/63d623613f9bf71ad005ec3a",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders",
+								"63d623613f9bf71ad005ec3a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"client_id\": \"6364d09c1c45cdd76b5ff647\",\n    \"token_id\": \"63d60b4ef5d80411c275e1fe\",\n    \"payment_type\": \"BANK TRANSFER\",\n    \"payment_status\": \"ORDER\",\n    \"bank_name\": \"BCA\",\n    \"account_no\": \"5350079850\",\n    \"account_name\": \"Hekta Hendra Priana\",\n    \"token\": \"100\",\n    \"price\": \"100000\",\n    \"uniq_code\": \"874\",\n    \"total\": \"100874\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/orders",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"token_id\": \"63d60b4ef5d80411c275e1fe\",\n    \"payment_type\": \"BANK TRANSFER\",\n    \"payment_status\": \"ORDER\",\n    \"bank_name\": \"BCA\",\n    \"account_no\": \"5350079850\",\n    \"account_name\": \"Hekta Hendra Priana\",\n    \"token\": \"100\",\n    \"price\": \"100000\",\n    \"uniq_code\": \"874\",\n    \"total\": \"100874\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/orders/63d623613f9bf71ad005ec3a",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders",
+								"63d623613f9bf71ad005ec3a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Order",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/orders/63d602234daa390d5bb1307e",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders",
+								"63d602234daa390d5bb1307e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Orders",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/orders/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Download/:name",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/orders/download/AdminLTE 3  DataTables.pdf",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders",
+								"download",
+								"AdminLTE 3  DataTables.pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Status",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"payment_status\": \"ORDER\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/orders/updatestatus/63d623613f9bf71ad005ec3a",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders",
+								"updatestatus",
+								"63d623613f9bf71ad005ec3a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Upload Bukti",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "files",
+									"type": "file",
+									"src": "/Users/hektahendrapriana/Downloads/medirec@5x.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/orders/uploadbukti/63d623613f9bf71ad005ec3a",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"orders",
+								"uploadbukti",
+								"63d623613f9bf71ad005ec3a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PURCHASES Copy",
+			"item": [
+				{
+					"name": "Purchases",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/purchases?limit=400&sort=_id&order=1&status=Active",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"purchases"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "400"
+								},
+								{
+									"key": "sort",
+									"value": "_id"
+								},
+								{
+									"key": "fields",
+									"value": "filename",
+									"disabled": true
+								},
+								{
+									"key": "filter",
+									"value": "JOYCE HUTAPEA2",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "1"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "Active"
+								},
+								{
+									"key": "doctor_id",
+									"value": "6397faad596e47f7fc571bbb",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Purchase By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/purchases/63d602f13ba5a70e3122fa57",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"purchases",
+								"63d602f13ba5a70e3122fa57"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Purchase",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"client_id\": \"6364d09c1c45cdd76b5ff647\",\n    \"product_id\": \"63d602f13ba5a70e3122fa57\",\n    \"status\": \"Active\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/purchases",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"purchases"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Purchase",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"token_id\": \"63d60b4ef5d80411c275e1fe\",\n    \"payment_type\": \"BANK TRANSFER\",\n    \"payment_status\": \"ORDER\",\n    \"bank_name\": \"BCA\",\n    \"account_no\": \"5350079850\",\n    \"account_name\": \"Hekta Hendra Priana\",\n    \"token\": \"100\",\n    \"price\": \"100000\",\n    \"uniq_code\": \"874\",\n    \"total\": \"100874\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{address}}/purchases/63d623613f9bf71ad005ec3a",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"purchases",
+								"63d623613f9bf71ad005ec3a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Purcahse",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/purchases/63d602234daa390d5bb1307e",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"purchases",
+								"63d602234daa390d5bb1307e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Purchases",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/purchases/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"purchases",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BALANCES Copy",
+			"item": [
+				{
+					"name": "Balances",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/balances?limit=400&sort=_id&order=1&status=Active&client_id=6364d09c1c45cdd76b5ff647",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"balances"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "400"
+								},
+								{
+									"key": "sort",
+									"value": "_id"
+								},
+								{
+									"key": "fields",
+									"value": "filename",
+									"disabled": true
+								},
+								{
+									"key": "filter",
+									"value": "JOYCE HUTAPEA2",
+									"disabled": true
+								},
+								{
+									"key": "order",
+									"value": "1"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "Active"
+								},
+								{
+									"key": "client_id",
+									"value": "6364d09c1c45cdd76b5ff647"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Balances In",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/balances/in?client_id=6364d09c1c45cdd76b5ff647",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"balances",
+								"in"
+							],
+							"query": [
+								{
+									"key": "client_id",
+									"value": "6364d09c1c45cdd76b5ff647"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Balances Out",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{address}}/balances/out?client_id=6364d09c1c45cdd76b5ff647",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"balances",
+								"out"
+							],
+							"query": [
+								{
+									"key": "client_id",
+									"value": "6364d09c1c45cdd76b5ff647"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
