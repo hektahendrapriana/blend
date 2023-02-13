@@ -9,7 +9,7 @@ Tech Stack :
 
 
 ### Instal Database
-cd api
+cd api\
 nano .env
 
 **copy to .env**
