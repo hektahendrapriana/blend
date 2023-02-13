@@ -61,7 +61,7 @@ INITIAL VALUE : {{address}} \
 CURRENT VALUE : http://localhost:8080/blend/api
 
 setelah itu, cari di dalam Collection -> Blend Media -> AUTH -> Login \
-kemudian copy RESPONSE token ke ENVIRONMENTS di bawah ini 
+kemudian tekan tombol Send di sebelah Kanan atas, dan copy RESPONSE token ke ENVIRONMENTS di bawah ini 
 
 2. \
 VARIABLE : token\
