@@ -12,7 +12,7 @@ interface ProductListProps {
   products: any[];
   searchTerm: string;
   price: number;
-  categoryId: number;
+  categoryId: string;
 }
 
 function ListProductsView(props: ProductListProps) {
@@ -24,7 +24,7 @@ function ListProductsView(props: ProductListProps) {
         {props.products
           .filter((product) => {
             if (props.searchTerm === "") {
-              return product.price <= props.price && props.categoryId !== 0
+              return product.price <= props.price && props.categoryId !== ''
                 ? product.categoryId === props.categoryId
                 : product.price <= props.price;
             } else if (
@@ -32,7 +32,7 @@ function ListProductsView(props: ProductListProps) {
                 .toLocaleLowerCase()
                 .includes(props.searchTerm.toLocaleLowerCase())
             ) {
-              return product.price <= props.price && props.categoryId !== 0
+              return product.price <= props.price && props.categoryId !== ''
                 ? product.categoryId === props.categoryId
                 : product.price <= props.price;
             }

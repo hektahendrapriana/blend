@@ -1,0 +1,2539 @@
+[{
+  "_id": {
+    "$oid": "63e75e8386642e29f4a7a87f"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::ffff:127.0.0.1",
+  "browser": "PostmanRuntime/7.30.1",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676107395518"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676107395518"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7db66428f2f2428f89a9c"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139366343"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139366343"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dbd0428f2f2428f89ab9"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139472809"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139472809"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dbf7428f2f2428f89ad6"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139511191"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139511191"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dc32428f2f2428f89af3"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139570743"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139570743"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dc98428f2f2428f89b10"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139672647"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139672647"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dd05428f2f2428f89b2d"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139781542"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139781542"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dd55428f2f2428f89b4a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139861274"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139861274"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dd69428f2f2428f89b67"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139881460"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139881460"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7ddbc428f2f2428f89b84"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676139964222"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676139964222"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7ddea428f2f2428f89bb4"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140010226"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140010226"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7de74428f2f2428f89bd4"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140148228"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140148228"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7de98428f2f2428f89bfa"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140184065"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140184065"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dec9428f2f2428f89c2a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140233757"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140233757"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7def0428f2f2428f89c47"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140272317"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140272317"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7df3e428f2f2428f89c64"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140350676"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140350676"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7df4a428f2f2428f89c81"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140362342"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140362342"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7df9b428f2f2428f89d25"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140443664"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140443664"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7dfc9428f2f2428f89d42"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140489936"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140489936"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7e087428f2f2428f89d5f"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140679527"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140679527"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7e113428f2f2428f89d7c"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140819907"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140819907"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7e19f428f2f2428f89dbf"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140959659"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140959659"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7e1b3428f2f2428f89ddc"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676140979272"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676140979272"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7e1cc428f2f2428f89df9"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676141004268"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676141004268"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7e1eb428f2f2428f89e16"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676141035128"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676141035128"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7e1fc428f2f2428f89e30"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676141052148"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676141052148"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e7e349428f2f2428f89e54"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676141385900"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676141385900"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e8844d428f2f2428f89e6e"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676182605534"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676182605534"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e886240c8f2a133cad58bd"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676183076632"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676183076632"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e8863c0c8f2a133cad58ca"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676183100631"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676183100631"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e886480c8f2a133cad58d7"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676183112338"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676183112338"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88690a9f0be1630dd6481"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676183184223"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676183184223"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88921a9f0be1630dd64d4"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676183841994"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676183841994"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88984a9f0be1630dd64f1"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676183940760"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676183940760"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88aaea9f0be1630dd6531"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184238042"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184238042"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88b10a9f0be1630dd653e"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184336778"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184336778"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88b19a9f0be1630dd654b"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184345078"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184345078"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88b2aa9f0be1630dd6558"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184362386"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184362386"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88b6da9f0be1630dd6568"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184429580"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184429580"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88b7da9f0be1630dd6575"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184445734"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184445734"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88bc3a9f0be1630dd658a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184515531"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184515531"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88bcaa9f0be1630dd659c"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184522118"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184522118"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88bd2a9f0be1630dd65ae"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184530726"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184530726"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88beba9f0be1630dd65d7"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184555249"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184555249"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88c18a9f0be1630dd6615"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184600797"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184600797"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88c61a9f0be1630dd6636"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184673360"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184673360"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88c82a9f0be1630dd66c7"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184706999"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184706999"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88cb3a9f0be1630dd66ee"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184755405"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184755405"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88d1ca9f0be1630dd6715"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676184860689"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676184860689"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88de4a9f0be1630dd673c"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185060573"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185060573"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88e0ba9f0be1630dd6763"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185099945"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185099945"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88e35a9f0be1630dd678a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185141338"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185141338"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88eeaa9f0be1630dd67d3"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185322661"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185322661"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88f0ca9f0be1630dd67e8"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185356833"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185356833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88f16a9f0be1630dd6814"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185366513"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185366513"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88f40a9f0be1630dd683b"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185408679"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185408679"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88f62a9f0be1630dd6862"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185442954"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185442954"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88f8ca9f0be1630dd68cc"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185484300"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185484300"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e88ff6a9f0be1630dd6910"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185590300"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185590300"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e8901ba9f0be1630dd692d"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185627402"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185627402"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e89035a9f0be1630dd6942"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185653648"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185653648"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e89038a9f0be1630dd695f"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185656941"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185656941"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e8906da9f0be1630dd69ae"
+  },
+  "email": "hektahendraprianas+500@gmail.com",
+  "user_name": "hektahendraprian",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185709376"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185709376"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e890bda9f0be1630dd69b8"
+  },
+  "email": "hektahendraprianas+500@gmail.com",
+  "user_name": "hektahendraprian",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676185789680"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676185789680"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e891a3a9f0be1630dd69e0"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676186019773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676186019773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e89271a9f0be1630dd6a2a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676186225973"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676186225973"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e892a7a9f0be1630dd6a45"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676186279344"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676186279344"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e89484a9f0be1630dd6a8a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676186756287"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676186756287"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e894f7a9f0be1630dd6aa5"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676186871244"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676186871244"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e89523a9f0be1630dd6ac0"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676186915085"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676186915085"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63e895cca9f0be1630dd6af7"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676187084400"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676187084400"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea0d256647612c206e4184"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "PostmanRuntime/7.30.1",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676283173441"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676283173441"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea12fd6647612c206e41d3"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676284669368"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676284669368"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4a4d55b4a71890b5db7f"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676298829863"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676298829863"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4a5555b4a71890b5db97"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676298837610"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676298837610"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4ab303a505295ca1179a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676298931893"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676298931893"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4b0403a505295ca117a3"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299012441"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299012441"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4b6b25706908ec4fb8a7"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299115155"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299115155"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4b8325706908ec4fb8b0"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299139122"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299139122"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4bb025706908ec4fb8b9"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299184821"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299184821"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4bbb25706908ec4fb8c2"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299195285"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299195285"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4bfc25706908ec4fb8d0"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299260495"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299260495"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4c2d25706908ec4fb8ea"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299309227"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299309227"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4eb725706908ec4fb8f8"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299959816"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299959816"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4ebb25706908ec4fb906"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299963506"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299963506"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4ed825706908ec4fb91d"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676299992856"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676299992856"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4eeb25706908ec4fb92b"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300011696"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300011696"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4eef25706908ec4fb939"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300015635"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300015635"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4efe25706908ec4fb94b"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300030811"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300030811"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4f2d25706908ec4fb954"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300077903"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300077903"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4f6425706908ec4fb95d"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300132914"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300132914"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4fda25706908ec4fb966"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300250984"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300250984"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea4fe425706908ec4fb978"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300260239"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300260239"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea505525706908ec4fb98a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300373831"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300373831"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea50fd25706908ec4fb995"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300541222"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300541222"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea510525706908ec4fb99e"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300549165"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300549165"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5154f9c5040e68e630d8"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300628331"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300628331"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5176f9c5040e68e630e1"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300662707"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300662707"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea51a9f9c5040e68e630ea"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300713969"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300713969"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea51b7f9c5040e68e630fc"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300727143"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300727143"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea51e1f9c5040e68e63105"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300769005"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300769005"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea523ef9c5040e68e6310e"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300862632"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300862632"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5249f9c5040e68e63117"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300873743"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300873743"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea527df9c5040e68e63120"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300925696"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300925696"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea52b7f9c5040e68e63129"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300983390"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300983390"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea52bff9c5040e68e63132"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676300991011"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676300991011"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea52f0f9c5040e68e6313b"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301040123"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301040123"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5308f9c5040e68e63144"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301064320"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301064320"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5340f9c5040e68e6314d"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301120385"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301120385"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5377f9c5040e68e63156"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301175647"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301175647"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea53a9f9c5040e68e6315f"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301225401"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301225401"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea53bcf9c5040e68e6316a"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301244541"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301244541"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea53d0f9c5040e68e63175"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301264823"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301264823"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea53f6f9c5040e68e63180"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301302368"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301302368"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea542af9c5040e68e6318b"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301354561"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301354561"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5433f9c5040e68e63196"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301363817"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301363817"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5481f9c5040e68e631a1"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301441345"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301441345"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea549df9c5040e68e631ac"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301469572"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301469572"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5553a3c3ed03a44a2772"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301651994"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301651994"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5596a3c3ed03a44a277d"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301718433"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301718433"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea55aca3c3ed03a44a2788"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301740582"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301740582"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea55dca3c3ed03a44a2795"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301788667"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301788667"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5611a3c3ed03a44a27a0"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301841279"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301841279"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5617a3c3ed03a44a27ab"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301847189"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301847189"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5643a3c3ed03a44a27b6"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301891175"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301891175"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5660a3c3ed03a44a27c1"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301920276"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301920276"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea56a3a3c3ed03a44a27cc"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676301987138"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676301987138"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea56d8a3c3ed03a44a27d7"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302040476"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302040476"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea56f1a3c3ed03a44a27e2"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302065466"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302065466"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea571da3c3ed03a44a27ed"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302109609"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302109609"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5725a3c3ed03a44a27f8"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302117651"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302117651"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5732a3c3ed03a44a2803"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302130890"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302130890"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea5774a3c3ed03a44a280e"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302196311"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302196311"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea57a2a3c3ed03a44a2819"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302242066"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302242066"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea57c8a3c3ed03a44a2836"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302280357"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302280357"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea57d7a3c3ed03a44a2854"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676302295454"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676302295454"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea66ff832660173c170598"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "PostmanRuntime/7.30.1",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676306175220"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676306175220"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea671e832660173c17059e"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "PostmanRuntime/7.30.1",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676306206647"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676306206647"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea6733832660173c1705a6"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676306227455"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676306227455"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea67534fe13523c8cc7b59"
+  },
+  "email": "hektahendraprianas+500@gmail.com",
+  "user_name": "hektahendraprian",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676306259367"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676306259367"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63ea6d2be27e03285cfb7f5e"
+  },
+  "email": "hektahendrapriana@gmail.com",
+  "user_name": "hektahendrapriana",
+  "ip": "::1",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676307755148"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676307755148"
+    }
+  }
+}]

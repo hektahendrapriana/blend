@@ -197,7 +197,6 @@ function ProductsPage({
                   price={price}
                   categoryId={categoryId}
                   brandId={brandId}
-                  type={categoryId}
                   products={
                     sortCondition === "high-price"
                       ? products.sort(function (a: any, b: any) {
@@ -235,16 +234,14 @@ function ProductsPage({
 
 export const getStaticProps: GetStaticProps = async () => {
   
-  const items = await loadProducts();
-  const products = await items?.docs;
+  const products = await loadProducts();
   const categories = await getCategories();
   const brands = await getBrands();
-  console.log('brands', brands)
   
   return {
     props: {
 
-      products: products?.map((product: any) => ({
+      products: JSON.parse(JSON.stringify(products)).docs?.map((product: any) => ({
         _id: product._id,
         sku: product.sku || null,
         title: product.product_name || null,

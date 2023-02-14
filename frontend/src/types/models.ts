@@ -33,5 +33,18 @@ export interface Product {
   product_price: number;
   real_pdp_url: string;
   descriptions: string;
-  
+}
+
+
+export interface ProductDetails {
+  _id: string;
+  sku: string;
+  product_name: string;
+  product_info: string;
+  product_type: string;
+  brand: string;
+  product_image_url: File[];
+  product_price: number;
+  real_pdp_url: string;
+  descriptions: string;
 }

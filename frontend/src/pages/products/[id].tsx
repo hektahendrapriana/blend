@@ -14,13 +14,13 @@ function ProductDetailPage({
         Home {">"} Products{" "}
         <span className="location">
           {" "}
-          {">"} {productDetails.title}
+          {">"} {productDetails.product_name}
         </span>
       </h2>
       <ProductDetail
-        id={productDetails.id}
+        id={productDetails._id}
         title={productDetails.title}
-        description={productDetails.description}
+        description={productDetails.descriptions}
         photo={productDetails.photo}
         price={productDetails.price}
         info={productDetails.info}
@@ -33,13 +33,12 @@ function ProductDetailPage({
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const items = await loadProducts();
-  const products = await items?.docs;
+  const products = await loadProducts();
   // const paths = mapEntriesSlugToPaths(products);
   
   return {
     paths:
-      products?.map((product: any) => ({
+      JSON.parse(JSON.stringify(products)).docs?.map((product: any) => ({
         params: { id: `${product._id}` },
       })) || [],
     fallback: false,
@@ -49,7 +48,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context: any) => {
   const { id } = context.params;
   const product = await loadProductDetails(id);
-  console.log('details', product)
+  
   return {
     props: {
       productDetails: {

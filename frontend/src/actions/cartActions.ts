@@ -6,7 +6,7 @@ import { RootState } from "../store";
 import { loadProductDetails } from "../lib/products";
 
 export const addToCart =
-  (id: any, quantity: any): ThunkAction<void, RootState, unknown, AnyAction> =>
+  (id: string, quantity: any): ThunkAction<void, RootState, unknown, AnyAction> =>
   async (dispatch, getState) => {
     try {
       const data = await loadProductDetails(id);

@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "6357b52bd9ff5ca93acb1d49"
+  },
+  "name": "Super User",
+  "role": "su",
+  "descriptions": "Role Super User",
+  "createdBy": "634fc1df3ad23ce05a16e83e",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1657417358554"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676100756822"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6357b55ad9ff5ca93acb1d4e"
+  },
+  "name": "Customer",
+  "role": "customer",
+  "descriptions": "Role Customer",
+  "createdBy": "634fc1df3ad23ce05a16e83e",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663385687206"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676043634450"
+    }
+  }
+}]

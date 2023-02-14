@@ -23,13 +23,12 @@ function HomePage(props:HomePageProps) {
 
 
 export const getStaticProps: GetStaticProps = async () => {
-  const items = await loadProducts();
-  const products = items?.docs;
+  const products = await loadProducts();
   
   return {
     props: {
       products: 
-        products?.map((product: Product) => ({
+          JSON.parse(JSON.stringify(products)).docs?.map((product: Product) => ({
           id: product._id,
           title: product.product_name || null,
           price: product.product_price || null,

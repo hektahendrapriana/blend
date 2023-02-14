@@ -39,7 +39,7 @@ function PopularProducts(props: PopularPoductsProps) {
               spacing={{ xs: 2, md: 3 }} columns={{ xs: 2, sm:6,  md: 12 }}
                 >
                     {products && products.map((product) =>{
-                         const { id, photo, url, title, description, price } = product;
+                         const { id, photo, url, title, description, price, brand, info, sku, type } = product;
                        return(
                          <Grid item 
                         key={id} 
@@ -51,6 +51,10 @@ function PopularProducts(props: PopularPoductsProps) {
                             title={title}
                             description={description}
                             price={price}
+                            brand={brand}
+                            info={info}
+                            sku={sku}
+                            type={type}
                         />
                         </Grid>
                     )})}

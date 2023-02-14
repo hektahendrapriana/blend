@@ -1,0 +1,847 @@
+[{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0521"
+  },
+  "name": "BANK BRI",
+  "code": "002"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0522"
+  },
+  "name": "BANK EKSPOR INDONESIA",
+  "code": "003"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0523"
+  },
+  "name": "BANK MANDIRI",
+  "code": "008"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0524"
+  },
+  "name": "BANK BNI",
+  "code": "009"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0525"
+  },
+  "name": "BANK BNI SYARIAH",
+  "code": "427"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0526"
+  },
+  "name": "BANK DANAMON",
+  "code": "011"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0527"
+  },
+  "name": "PERMATA BANK",
+  "code": "013"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0528"
+  },
+  "name": "BANK BCA",
+  "code": "014"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0529"
+  },
+  "name": "BANK BII",
+  "code": "016"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df052a"
+  },
+  "name": "BANK PANIN",
+  "code": "019"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df052b"
+  },
+  "name": "BANK ARTA NIAGA KENCANA",
+  "code": "020"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df052c"
+  },
+  "name": "BANK NIAGA",
+  "code": "022"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df052d"
+  },
+  "name": "BANK BUANA IND",
+  "code": "023"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df052e"
+  },
+  "name": "BANK LIPPO",
+  "code": "026"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df052f"
+  },
+  "name": "BANK NISP",
+  "code": "028"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0530"
+  },
+  "name": "AMERICAN EXPRESS BANK LTD",
+  "code": "030"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0531"
+  },
+  "name": "CITIBANK N.A.",
+  "code": "031"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0532"
+  },
+  "name": "JP. MORGAN CHASE BANK, N.A.",
+  "code": "032"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0533"
+  },
+  "name": "BANK OF AMERICA, N.A",
+  "code": "033"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0534"
+  },
+  "name": "ING INDONESIA BANK",
+  "code": "034"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0535"
+  },
+  "name": "BANK MULTICOR TBK.",
+  "code": "036"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0536"
+  },
+  "name": "BANK ARTHA GRAHA",
+  "code": "037"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0537"
+  },
+  "name": "BANK CREDIT AGRICOLE INDOSUEZ",
+  "code": "039"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0538"
+  },
+  "name": "THE BANGKOK BANK COMP. LTD",
+  "code": "040"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0539"
+  },
+  "name": "THE HONGKONG & SHANGHAI B.C.",
+  "code": "041"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df053a"
+  },
+  "name": "THE BANK OF TOKYO MITSUBISHI UFJ LTD",
+  "code": "042"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df053b"
+  },
+  "name": "BANK SUMITOMO MITSUI INDONESIA",
+  "code": "045"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df053c"
+  },
+  "name": "BANK DBS INDONESIA",
+  "code": "046"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df053d"
+  },
+  "name": "BANK RESONA PERDANIA",
+  "code": "047"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df053e"
+  },
+  "name": "BANK MIZUHO INDONESIA",
+  "code": "048"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df053f"
+  },
+  "name": "STANDARD CHARTERED BANK",
+  "code": "050"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0540"
+  },
+  "name": "BANK ABN AMRO",
+  "code": "052"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0541"
+  },
+  "name": "BANK KEPPEL TATLEE BUANA",
+  "code": "053"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0542"
+  },
+  "name": "BANK CAPITAL INDONESIA, TBK.",
+  "code": "054"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0543"
+  },
+  "name": "BANK BNP PARIBAS INDONESIA",
+  "code": "057"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0544"
+  },
+  "name": "BANK UOB INDONESIA",
+  "code": "058"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0545"
+  },
+  "name": "KOREA EXCHANGE BANK DANAMON",
+  "code": "059"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0546"
+  },
+  "name": "RABOBANK INTERNASIONAL INDONESIA",
+  "code": "060"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0547"
+  },
+  "name": "ANZ PANIN BANK",
+  "code": "061"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0548"
+  },
+  "name": "DEUTSCHE BANK AG.",
+  "code": "067"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0549"
+  },
+  "name": "BANK WOORI INDONESIA",
+  "code": "068"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df054a"
+  },
+  "name": "BANK OF CHINA LIMITED",
+  "code": "069"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df054b"
+  },
+  "name": "BANK BUMI ARTA",
+  "code": "076"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df054c"
+  },
+  "name": "BANK EKONOMI",
+  "code": "087"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df054d"
+  },
+  "name": "BANK ANTARDAERAH",
+  "code": "088"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df054e"
+  },
+  "name": "BANK HAGA",
+  "code": "089"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df054f"
+  },
+  "name": "BANK IFI",
+  "code": "093"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0550"
+  },
+  "name": "BANK CENTURY, TBK.",
+  "code": "095"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0551"
+  },
+  "name": "BANK MAYAPADA",
+  "code": "097"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0552"
+  },
+  "name": "BANK JABAR",
+  "code": "110"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0553"
+  },
+  "name": "BANK DKI",
+  "code": "111"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0554"
+  },
+  "name": "BPD DIY",
+  "code": "112"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0555"
+  },
+  "name": "BANK JATENG",
+  "code": "113"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0556"
+  },
+  "name": "BANK JATIM",
+  "code": "114"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0557"
+  },
+  "name": "BPD JAMBI",
+  "code": "115"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0558"
+  },
+  "name": "BPD ACEH",
+  "code": "116"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0559"
+  },
+  "name": "BANK SUMUT",
+  "code": "117"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df055a"
+  },
+  "name": "BANK NAGARI",
+  "code": "118"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df055b"
+  },
+  "name": "BANK RIAU",
+  "code": "119"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df055c"
+  },
+  "name": "BANK SUMSEL",
+  "code": "120"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df055d"
+  },
+  "name": "BANK LAMPUNG",
+  "code": "121"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df055e"
+  },
+  "name": "BPD KALSEL",
+  "code": "122"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df055f"
+  },
+  "name": "BPD KALIMANTAN BARAT",
+  "code": "123"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0560"
+  },
+  "name": "BPD KALTIM",
+  "code": "124"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0561"
+  },
+  "name": "BPD KALTENG",
+  "code": "125"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0562"
+  },
+  "name": "BPD SULSEL",
+  "code": "126"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0563"
+  },
+  "name": "BANK SULUT",
+  "code": "127"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0564"
+  },
+  "name": "BPD NTB",
+  "code": "128"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0565"
+  },
+  "name": "BPD BALI",
+  "code": "129"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0566"
+  },
+  "name": "BANK NTT",
+  "code": "130"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0567"
+  },
+  "name": "BANK MALUKU",
+  "code": "131"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0568"
+  },
+  "name": "BPD PAPUA",
+  "code": "132"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0569"
+  },
+  "name": "BANK BENGKULU",
+  "code": "133"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df056a"
+  },
+  "name": "BPD SULAWESI TENGAH",
+  "code": "134"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df056b"
+  },
+  "name": "BANK SULTRA",
+  "code": "135"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df056c"
+  },
+  "name": "BANK NUSANTARA PARAHYANGAN",
+  "code": "145"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df056d"
+  },
+  "name": "BANK SWADESI",
+  "code": "146"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df056e"
+  },
+  "name": "BANK MUAMALAT",
+  "code": "147"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df056f"
+  },
+  "name": "BANK MESTIKA",
+  "code": "151"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0570"
+  },
+  "name": "BANK METRO EXPRESS",
+  "code": "152"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0571"
+  },
+  "name": "BANK SHINTA INDONESIA",
+  "code": "153"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0572"
+  },
+  "name": "BANK MASPION",
+  "code": "157"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0573"
+  },
+  "name": "BANK HAGAKITA",
+  "code": "159"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0574"
+  },
+  "name": "BANK GANESHA",
+  "code": "161"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0575"
+  },
+  "name": "BANK WINDU KENTJANA",
+  "code": "162"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0576"
+  },
+  "name": "HALIM INDONESIA BANK",
+  "code": "164"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0577"
+  },
+  "name": "BANK HARMONI INTERNATIONAL",
+  "code": "166"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0578"
+  },
+  "name": "BANK KESAWAN",
+  "code": "167"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0579"
+  },
+  "name": "BANK TABUNGAN NEGARA (PERSERO)",
+  "code": "200"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df057a"
+  },
+  "name": "BANK HIMPUNAN SAUDARA 1906, TBK .",
+  "code": "212"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df057b"
+  },
+  "name": "BANK TABUNGAN PENSIUNAN NASIONAL",
+  "code": "213"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df057c"
+  },
+  "name": "BANK SWAGUNA",
+  "code": "405"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df057d"
+  },
+  "name": "BANK JASA ARTA",
+  "code": "422"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df057e"
+  },
+  "name": "BANK MEGA",
+  "code": "426"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df057f"
+  },
+  "name": "BANK JASA JAKARTA",
+  "code": "427"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0580"
+  },
+  "name": "BANK BUKOPIN",
+  "code": "441"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0581"
+  },
+  "name": "BANK SYARIAH MANDIRI",
+  "code": "451"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0582"
+  },
+  "name": "BANK BISNIS INTERNASIONAL",
+  "code": "459"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0583"
+  },
+  "name": "BANK SRI PARTHA",
+  "code": "466"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0584"
+  },
+  "name": "BANK JASA JAKARTA",
+  "code": "472"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0585"
+  },
+  "name": "BANK BINTANG MANUNGGAL",
+  "code": "484"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0586"
+  },
+  "name": "BANK BUMIPUTERA",
+  "code": "485"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0587"
+  },
+  "name": "BANK YUDHA BHAKTI",
+  "code": "490"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0588"
+  },
+  "name": "BANK MITRANIAGA",
+  "code": "491"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0589"
+  },
+  "name": "BANK AGRO NIAGA",
+  "code": "494"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df058a"
+  },
+  "name": "BANK INDOMONEX",
+  "code": "498"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df058b"
+  },
+  "name": "BANK ROYAL INDONESIA",
+  "code": "501"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df058c"
+  },
+  "name": "BANK ALFINDO",
+  "code": "503"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df058d"
+  },
+  "name": "BANK SYARIAH MEGA",
+  "code": "506"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df058e"
+  },
+  "name": "BANK INA PERDANA",
+  "code": "513"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df058f"
+  },
+  "name": "BANK HARFA",
+  "code": "517"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0590"
+  },
+  "name": "PRIMA MASTER BANK",
+  "code": "520"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0591"
+  },
+  "name": "BANK PERSYARIKATAN INDONESIA",
+  "code": "521"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0592"
+  },
+  "name": "BANK AKITA",
+  "code": "525"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0593"
+  },
+  "name": "LIMAN INTERNATIONAL BANK",
+  "code": "526"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0594"
+  },
+  "name": "ANGLOMAS INTERNASIONAL BANK",
+  "code": "531"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0595"
+  },
+  "name": "BANK DIPO INTERNATIONAL",
+  "code": "523"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0596"
+  },
+  "name": "BANK KESEJAHTERAAN EKONOMI",
+  "code": "535"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0597"
+  },
+  "name": "BANK UIB",
+  "code": "536"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0598"
+  },
+  "name": "BANK ARTOS IND",
+  "code": "542"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df0599"
+  },
+  "name": "BANK PURBA DANARTA",
+  "code": "547"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df059a"
+  },
+  "name": "BANK MULTI ARTA SENTOSA",
+  "code": "548"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df059b"
+  },
+  "name": "BANK MAYORA",
+  "code": "553"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df059c"
+  },
+  "name": "BANK INDEX SELINDO",
+  "code": "555"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df059d"
+  },
+  "name": "BANK VICTORIA INTERNATIONAL",
+  "code": "566"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df059e"
+  },
+  "name": "BANK EKSEKUTIF",
+  "code": "558"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df059f"
+  },
+  "name": "CENTRATAMA NASIONAL BANK",
+  "code": "559"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a0"
+  },
+  "name": "BANK FAMA INTERNASIONAL",
+  "code": "562"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a1"
+  },
+  "name": "BANK SINAR HARAPAN BALI",
+  "code": "564"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a2"
+  },
+  "name": "BANK HARDA",
+  "code": "567"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a3"
+  },
+  "name": "BANK FINCONESIA",
+  "code": "945"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a4"
+  },
+  "name": "BANK MERINCORP",
+  "code": "946"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a5"
+  },
+  "name": "BANK MAYBANK INDOCORP",
+  "code": "947"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a6"
+  },
+  "name": "BANK OCBC – INDONESIA",
+  "code": "948"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a7"
+  },
+  "name": "BANK CHINA TRUST INDONESIA",
+  "code": "949"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a8"
+  },
+  "name": "BANK COMMONWEALTH",
+  "code": "950"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05a9"
+  },
+  "name": "BANK BJB SYARIAH",
+  "code": "425"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05aa"
+  },
+  "name": "BPR KS (KARYAJATNIKA SEDAYA)",
+  "code": "688"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05ab"
+  },
+  "name": "INDOSAT DOMPETKU",
+  "code": "789"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05ac"
+  },
+  "name": "TELKOMSEL TCASH",
+  "code": "911"
+},{
+  "_id": {
+    "$oid": "6364f23d88ae8dc548df05ad"
+  },
+  "name": "LINKAJA",
+  "code": "911"
+}]

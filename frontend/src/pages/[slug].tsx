@@ -39,7 +39,7 @@ export const getStaticProps: GetStaticProps = async (context: any) => {
   return {
     props: {
       pageData: {
-        id: page?.id,
+        id: page?._id,
         title: page?.title || "404 Page",
         description: page?.description || "No such a page",
         slug: page?.slug || "",

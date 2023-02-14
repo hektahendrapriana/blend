@@ -1,12 +1,13 @@
 import axios from "axios";
 import { CONSTANTS } from "../types/constants";
-import { Product } from "../types/models";
+import { Product, ProductDetails } from "../types/models";
+import type { NextApiRequest, NextApiResponse } from 'next'
 
 interface ProductDataProps {
   data: Product[];
 }
 interface ProductDetailsProps {
-  data: Product;
+  data: ProductDetails;
 }
 
 export async function loadProducts() {
