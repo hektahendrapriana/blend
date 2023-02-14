@@ -38,6 +38,11 @@ MJ_API_SECRET="fdd85cd7b7edb1afb50eebfbc563169a"
 
 setelah itu, jalankan perintah ini :
 ```
+npm install
+```
+
+setelah selesai, jalankan perintah ini :
+```
 npm run seed
 ```
 
@@ -99,6 +104,7 @@ Password :
 ```
 cd ..
 cd backend
+npm install
 npm start
 ```
 
@@ -113,6 +119,7 @@ Tech Stack :
 ```
 cd ..
 cd frontend
+npm install
 npm run dev -- -p 3005
 ```
 
