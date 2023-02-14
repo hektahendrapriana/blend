@@ -58,6 +58,7 @@ services:
       - api
       - backend
       - frontend
+      - nginx
 
   backend:
     depends_on:
@@ -91,6 +92,13 @@ services:
       - $FRONTEND_LOCAL_PORT:$FRONTEND_DOCKER_PORT
     networks:
       - frontend 
+  
+  nginx:
+    build: ./frontend/nginx
+    ports:
+      - 80:80
+    networks:
+      - nginx 
 
 volumes: 
   db:
@@ -99,3 +107,4 @@ networks:
   api:
   backend:
   frontend:
+  nginx:

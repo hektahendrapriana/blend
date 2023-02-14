@@ -1,9 +1,9 @@
 # Stage 1
-FROM node:14 as build-stage
+FROM node:16 as build-stage
 
 WORKDIR /backend
-COPY package.json .
-RUN npm install
+COPY package*.json .
+RUN npm install --production
 COPY . .
 
 RUN npm run --openssl-legacy-provider build
