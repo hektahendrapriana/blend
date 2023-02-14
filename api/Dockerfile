@@ -1,12 +1,13 @@
 FROM node:16
 
+
 RUN npm install --global pm2
 
 WORKDIR /api
 
-COPY package*.json .
+COPY package.json .
 
-RUN npm install --production
+RUN npm install
 
 COPY . .
 

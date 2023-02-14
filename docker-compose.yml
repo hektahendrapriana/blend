@@ -30,7 +30,7 @@ services:
       - DB_NAME=$MONGODB_DATABASE
       - DB_PORT=$MONGODB_DOCKER_PORT
       - CLIENT_ORIGIN=$CLIENT_ORIGIN
-      - NODE_ENV="development"
+      - NODE_ENV="production"
       - PORT=8080
       - JWT_SECRET="7D6425FAC26477182B78C8F2F39CE"
       - JWT_EXPIRATION_IN_MINUTES=1440
@@ -58,28 +58,6 @@ services:
       - api
       - backend
       - frontend
-      - nginx
-
-  backend:
-    depends_on:
-      - api
-    build:
-      context: ./backend
-      args:
-        - REACT_APP_API_BASE_URL=$CLIENT_API_BASE_URL
-    env_file: ./.env
-    ports:
-      - $BACKEND_LOCAL_PORT:$BACKEND_DOCKER_PORT
-    environment:
-      - NODE_ENV="development"
-      - REACT_APP_PERMISSIONS_SOURCE="ADMIN"
-      - REACT_APP_SOURCE="ADMIN"
-      - REACT_API_URL="http://localhost:8080/blend/api/"
-      - REACT_BASE_URL="http://localhost:8080"
-      - REACT_UPLOAD_PATH="/uploads/"
-      - SKIP_PREFLIGHT_CHECK=true
-    networks:
-      - backend
   
   frontend:
     depends_on:
@@ -92,13 +70,27 @@ services:
       - $FRONTEND_LOCAL_PORT:$FRONTEND_DOCKER_PORT
     networks:
       - frontend 
-  
-  nginx:
-    build: ./frontend/nginx
+
+  backend:
+    depends_on:
+      - api
+    build:
+      context: ./backend
+      args:
+        - REACT_APP_API_BASE_URL=$CLIENT_API_BASE_URL
+    env_file: ./.env
     ports:
-      - 80:80
+      - $BACKEND_LOCAL_PORT:$BACKEND_DOCKER_PORT
+    environment:
+      - NODE_ENV="production"
+      - REACT_APP_PERMISSIONS_SOURCE="ADMIN"
+      - REACT_APP_SOURCE="ADMIN"
+      - REACT_API_URL="http://localhost:8080/blend/api/"
+      - REACT_BASE_URL="http://localhost:8080"
+      - REACT_UPLOAD_PATH="/uploads/"
+      - SKIP_PREFLIGHT_CHECK=true
     networks:
-      - nginx 
+      - backend
 
 volumes: 
   db:
